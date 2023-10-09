@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>INZOO</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation" id="navbar">
+            <h1 class="logo">INZOO</h1>
+            <ul class="menu" id="menu">
+                <li class="menu-item"><a href="#home">BERANDA</a></li>
+                <li class="menu-item"><a href="#program">PROGRAM</a></li>
+                <li class="menu-item"><a href="#services">LAYANAN</a></li>
+                <li class="menu-item"><a href="#ticket">TIKET</a></li>
+                <li class="menu-item"><a href="#contact">KONTAK</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+                <img class="toggle" src="assets/image/menu.svg" alt="menu">
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <section id="home">
+                <h1>JELAJAHI INDONESIA</h1>
+                <p>melampaui jangkauan orang dan temukan yang tidak diketahui</p>
+                <div class="btn_img">
+                    <a href="#program">
+                        <button class="btn_home">Memulai</button>
+                    </a>
+                    <img src="assets/image/header.png" class="home-img" alt="home">
+                </div>
+            </section>
+            <section id="program">
+                <h2>Program</h2>
+                <div class="program">
+                    <article class="subprogram">
+                        <div>
+                            <img src="assets/image/camp.svg" class="program-img" alt="Perkemahan">
+                        </div>
+                        <div class="program-text">
+                            <h3>Perkemahan</h3>
+                            <p>Bergabunglah dengan kami untuk perkemahan alam Indonesia dan pengalaman menjelajah Indonesia yang belum pernah Anda rasakan sebelumnya</p>
+                        </div>
+                    </article>
+                    <article class="subprogram">
+                        <div>
+                            <img src="assets/image/tour.svg" class="program-img" alt="Karyawisata">
+                        </div>
+                        <div class="program-text">
+                            <h3>Karyawisata</h3>
+                            <p>Ajak siswa sekolah Anda untuk menjelajah alam Indonesia dan perkenalkan mereka dengan keberagaman budaya Indonesia</p>
+                        </div>
+                        </article>
+                </div>
+            </section>
+            <section id="services">
+                <div class="services">
+                    <div class="services-row">
+                        <div class="services-box-img">
+                            <img src="assets/image/camping.svg" class="natpark-img" alt="Wisata Taman Nasional">
+                        </div>
+                        <div class="services-box-txt">
+                            <div class="services-txt">
+                                <h2>Wisata Taman Nasional</h2>
+                                <p>Habiskan hari untuk menjelajah dan berkemah di Taman Nasional yang menawarkan pemandangan alam terbaik</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-row2">
+                        <div class="services-box-txt2">
+                            <div class="services-txt">
+                                <h2>Perjalanan Keliling</h2>
+                                <p>Berkeliling Indonesia dan menikmati keindahan alam serta melihat keberagaman budaya Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="services-box-img2">
+                            <img src="assets/image/offroad.svg" class="offroad-img" alt="Perjalanan Keliling">
+                        </div>
+                    </div>
+                    <div class="services-row">
+                        <div class="services-box-img">
+                            <img src="assets/image/walk-through.svg" class="safari-img" alt="Safari Budaya">
+                        </div>
+                        <div class="services-box-txt">
+                            <div class="services-txt">
+                                <h2>Safari Budaya</h2>
+                                <p>Kunjungi cagar budaya di program safari budaya dan edukasi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="ticket" class="ticket">
+                <div>
+                    <img src="assets/image/Booking.svg" class="ticket-img" alt="ticket">
+                </div>
+                <h2>Mulai Penjelajahan yang menyenangkan</h2>
+                <a href="#">Dapatkan Tiket</a>
+            </section>
+            <section id="contact" class="contact">
+                <h2>Hubungi Kami</h2>
+                <form action="#">
+                    <label for="fname">Nama Depan</label>                        
+                    <input type="text" class="input" id="fname" placeholder="Nama Depan">
+                    <label for="lname">Nama Belakang</label>
+                    <input type="text" class="input" id="lname" placeholder="Nama Belakang">
+                    <label for="email">Email</label>
+                    <input type="email" class="input" id="email" placeholder="Email">
+                    <label for="subject">Subjek</label>
+                    <input type="text" class="input" id="subject" placeholder="Subjek">
+                    <label for="message">Pesan</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Tulis Pesan"></textarea>
+                    <input type="submit" class="submit">
+                </form>
+            </section>
+        </div>
+        <aside>
+            <article class="bio">
+                <h2>Biodata</h2>
+                <div class="profile">
+                    <img src="assets/image/profile.jpg" class="profile-img" alt="Foto Profil">
+                    <div class="profile-detail">
+                        <h4>Nama :</h4>
+                        <p>Tanto Wijaya</p>
+                        <h4>Email :</h4>
+                        <p>tanto.twjy@gmail.com</p>
+                        <h4>WhatsApp :</h4>
+                        <p>+62 812-2818-1236</p>
+                    </div>
+                </div>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        <ul class="social">
+            <li><a href="#"><img src="assets/image/facebook-color.png" class="fb" alt="Facebook"></a></li>
+            <li><a href="#"><img src="assets/image/instagram-color.png" class="ig" alt="Instagram"></a></li>
+        </ul>
+        <ul class="terms">
+            <li><a href="#">Terms of Service</a></li>
+            <li><a><b>|</b></a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <article class="cp">
+            <p>Copyright &#169; 2021 INZOO</p>
+        </article>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
