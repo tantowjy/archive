@@ -1,0 +1,45 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Classes (KEYWORD1)
+#######################################
+
+AntaresESP32HTTP	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+wifiConnection	KEYWORD2
+setDebug	KEYWORD2
+printDebug	KEYWORD2
+ipToString	KEYWORD2
+setMqttServer	KEYWORD2
+checkMqttConnection	KEYWORD2
+printdata	KEYWORD2
+add	KEYWORD2
+send	KEYWORD2
+sendSecure	KEYWORD2
+get	KEYWORD2
+getSecure	KEYWORD2
+printData	KEYWORD2
+publish	KEYWORD2
+getTopic	KEYWORD2
+getPayload	KEYWORD2
+getInt	KEYWORD2
+getFloat	KEYWORD2
+getDouble	KEYWORD2
+getString	KEYWORD2
+getSuccess	KEYWORD2
+
+######################################
+# Constants (LITERAL1)
+#######################################
+ACCESSKEY	LITERAL1
+WIFISSID	LITERAL1
+PASSWORD	LITERAL1
+
+projectName	LITERAL1
+deviceName	LITERAL1
