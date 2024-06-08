@@ -8,10 +8,10 @@
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
 
-#define WIFI_SSID "PQR"
-#define WIFI_PASSWORD "12345678"
-#define API_KEY "AIzaSyB7sl-R94rL0VmwPhdriEYQ6tLys3kiviQ"
-#define DATABASE_URL "automatic-watering-plant-iot-default-rtdb.firebaseio.com/"
+#define WIFI_SSID "**************"
+#define WIFI_PASSWORD "**************"
+#define API_KEY "**************"
+#define DATABASE_URL "**************"
 
 FirebaseData fbdo;
 FirebaseAuth auth;
@@ -181,5 +181,3 @@ void pompaON(){
   digitalWrite(PIN_POMPA, HIGH);
   delay(3000);
 }
-
-
