@@ -1,2 +1,5 @@
+# Arduino IDE library
+arduino/libraries/
+
 # virtual-env
 env/
